@@ -2,7 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27af9074-eabc-42e0-abff-abd55b2b1c11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/model/Aceites.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Agua.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Carne.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Cereal.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Frutas.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Huevos.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/I_Ingredientes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Ingredientes.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Leche.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/model/Verduras.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/RecipesMaker/RecipesMakerKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/RecipesMaker/RecipesMakerKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RecipesMaker.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/RecipesMaker.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -12,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Interface" />
         <option value="Kotlin File" />
       </list>
     </option>
@@ -65,26 +78,30 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser" timestamp="1588985640876">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="751" y="236" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1588985640876" />
     <state x="1220" y="275" key="FileChooserDialogImpl" timestamp="1587238692566">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1220" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1587238692566" />
-    <state width="938" height="196" key="GridCell.Tab.0.bottom" timestamp="1588813430103">
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom" timestamp="1588986082978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="196" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588813430103" />
-    <state width="938" height="196" key="GridCell.Tab.0.center" timestamp="1588813430102">
+    <state width="1877" height="316" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1588986082978" />
+    <state width="1877" height="316" key="GridCell.Tab.0.center" timestamp="1588986082978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="196" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588813430102" />
-    <state width="938" height="196" key="GridCell.Tab.0.left" timestamp="1588813430102">
+    <state width="1877" height="316" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1588986082978" />
+    <state width="1877" height="316" key="GridCell.Tab.0.left" timestamp="1588986082978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="196" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588813430102" />
-    <state width="938" height="196" key="GridCell.Tab.0.right" timestamp="1588813430103">
+    <state width="1877" height="316" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1588986082978" />
+    <state width="1877" height="316" key="GridCell.Tab.0.right" timestamp="1588986082978">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="938" height="196" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588813430103" />
+    <state width="1877" height="316" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1588986082978" />
     <state x="1136" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1587238662942">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

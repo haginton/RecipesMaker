@@ -1,3 +1,5 @@
+import model.*
+
 fun main(args: Array<String>){
     var evualuar: Int
     do {
@@ -32,7 +34,10 @@ fun main(args: Array<String>){
 }
 
 fun makeRecipe(){
-    val categoria = """
+
+    var evaluar: Int
+    do {
+        val categoria = """
         
         Hacer receta
         Seleciona por categoría el ingrediente que buscas
@@ -44,9 +49,41 @@ fun makeRecipe(){
         6. Cereal
         7. Huevos
         8. Aceites
+        9. Salir
         
     """.trimIndent()
-    println(categoria)
+        println(categoria)
+
+        var listaCategoria: String? = readLine()
+        evaluar = listaCategoria!!.toInt()
+
+        if (evaluar.equals(1)){
+            var agua = Agua(1)
+            println("\n${agua.lista()}\n")
+        }else if (evaluar.equals(2)){
+            var leche = Leche(2)
+            println("\n${leche.lista()}\n")
+        }else if (evaluar.equals(3)){
+            var carne = Carne(2)
+            println("\n${carne.lista()}\n")
+        }else if (evaluar.equals(4)){
+            var verduras = Verduras(2)
+            println("\n${verduras.lista()}\n")
+        }else if (evaluar.equals(5)){
+            var frutas = Frutas(2)
+            println("\n${frutas.lista()}\n")
+        }else if (evaluar.equals(6)){
+            var cereal = Cereal(2)
+            println("\n${cereal.lista()}\n")
+        }else if (evaluar.equals(7)){
+            var huevos = Huevos(2)
+            println("\n${huevos.lista()}\n")
+        }else if (evaluar.equals(8)){
+            var aceites = Aceites(2)
+            println("\n${aceites.lista()}\n")
+        }
+    }while (!evaluar.equals(9))
+
 }
 
 fun viewRecipe(){
