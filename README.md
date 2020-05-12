@@ -1,2 +1,2 @@
 # RecipesMaker
-Proyecto prueba curso Kotlin
+Proyecto prueba curso Kotlin de Platzi
